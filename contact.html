@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt | Svet seo 470</title>
+    <meta name="description" content="Máte dotazy k našemu projektu Svet seo 470? Kontaktujte nás pomocí níže uvedeného formuláře nebo telefonu.">
+    <meta name="geo.region" content="CZ" />
+    <meta name="geo.placename" content="Praha" />
+    <meta name="geo.position" content="50.0755;14.4378" />
+    <meta name="ICBM" content="50.0755, 14.4378" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div class="site-inner" style="max-width: 800px;">
+            <nav style="display: flex; gap: 15px; margin-bottom: 25px; border-bottom: 1px solid var(--tazxr); padding-bottom: 10px; overflow-x: auto; flex-wrap: wrap;">
+            <a href="index.html">Domů</a>
+            <a href="optimizing-systems-for-web-companies.html">Článek</a>
+            <a href="about.html">O nás</a>
+            <a href="contact.html">Kontakt</a>
+            <a href="privacy.html">Ochrana soukromí</a>
+        </nav>
+            <h1>Kontakt</h1>
+            <p>Máte dotazy k našemu projektu Svet seo 470? Kontaktujte nás pomocí níže uvedeného formuláře nebo telefonu.</p>
+            <p><strong>Telefon:</strong> +420 222 555 123<br><strong>Adresa:</strong> Praha, Praha, 110 00</p>
+            <form action=/send-message method="POST">
+                <input type="text" name="name" placeholder="{loc_data['contact_name_placeholder']}" required>
+                <input type="email" name="email" placeholder="{loc_data['contact_email_placeholder']}" required>
+                <textarea name="message" placeholder="{loc_data['contact_msg_placeholder']}" rows="5" required></textarea>
+                <button type="submit">{loc_data['contact_submit']}</button>
+            </form>
+            <footer>
+                <p>&copy; {time.strftime('%Y')} {biz_name}. {loc_data['rights_reserved']}</p>
+            </footer>
+        </div>
+        
+</body>
+</html>
