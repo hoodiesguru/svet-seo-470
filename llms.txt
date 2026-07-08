@@ -1,0 +1,11 @@
+# Svet seo 470
+> Moderní magazín o vaření se sídlem v městě Praha, Praha.
+
+## Obsah webu
+- [Hlavní stránka](/index.html): Přehled publikací.
+- [O nás](/about.html): Kdo jsme a co děláme.
+- [Kontakt](/contact.html): Formulář a adresa.
+## Publikace
+- [Optimizing Systems for Web Companies](/optimizing-systems-for-web-companies.html)
+- [Enterprise Static Site Architecture and Obfuscation Guide](/enterprise-static-site-architecture-and-obfuscation-guide.html)
+- [Location Tactics for Global Networks](/location-tactics-for-global-networks.html)
